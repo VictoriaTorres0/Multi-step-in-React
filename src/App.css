@@ -2,7 +2,7 @@
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
-  text-align: center;
+
   background-color: #121826;
   background-image: url("./assets/image/blur-radial.svg");
 }
@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .form-base {
   width: 500px;
