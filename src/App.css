@@ -6,9 +6,15 @@
   background-color: #121826;
   background-image: url("./assets/image/blur-radial.svg");
 }
-
-.form-vista--1 {
-  max-width: 50vw;
+.container-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-base {
+  width: 500px;
+  height: 400px;
   background-color: #212936;
-  min-height: 60vh;
+  border-radius: 20px;
 }
