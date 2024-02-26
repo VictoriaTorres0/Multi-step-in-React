@@ -24,7 +24,7 @@ function vistaUno() {
           required
         />
         <br />
-      </form>{" "}
+      </form>
       <button className="boton" type="submit" value="Continue">
         Continue
       </button>
