@@ -1,0 +1,42 @@
+.container-formulario {
+  margin-top: 40px;
+}
+.formulario {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+h1 {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 25px;
+  color: #e5e7eb;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-left: 50px;
+  color: #a1a1a9;
+  font-size: 14px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 2px solid #4d5562;
+  border-radius: 13px;
+  box-sizing: border-box;
+  background-color: #212936;
+  color: #a1a1a9;
+  cursor: pointer;
+}
+
+.boton {
+  background-color: #652cd1;
+  border-radius: 20px;
+  border: none;
+  padding: 12px;
+  width: 120px;
+  color: #e5e7eb;
+}
