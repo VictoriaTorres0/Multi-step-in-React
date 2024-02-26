@@ -24,10 +24,10 @@ function vistaUno() {
           required
         />
         <br />
-        <button className="boton" type="submit" value="Continue">
-          Continue
-        </button>
-      </form>
+      </form>{" "}
+      <button className="boton" type="submit" value="Continue">
+        Continue
+      </button>
     </div>
   );
 }
