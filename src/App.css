@@ -2,13 +2,13 @@
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
-
   background-color: #121826;
   background-image: url("./assets/image/blur-radial.svg");
 }
 .container-form {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -18,4 +18,18 @@
   height: 400px;
   background-color: #212936;
   border-radius: 20px;
+}
+.container--advance-button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.advance-button {
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  background-color: #212936;
+  border: none;
+  box-shadow: 0 0 10px #4d5562;
+  margin: 0 5px;
 }

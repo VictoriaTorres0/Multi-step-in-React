@@ -17,3 +17,26 @@ input[type="email"] {
   color: #e5e7eb;
   cursor: pointer;
 }
+
+.button-selected {
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 2px solid #4d5562;
+  border-radius: 13px;
+  box-sizing: border-box;
+  color: #e5e7eb;
+  cursor: pointer;
+  background-color: #652cd1;
+}
+.formulario button {
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 2px solid #4d5562;
+  border-radius: 13px;
+  box-sizing: border-box;
+  color: #e5e7eb;
+  cursor: pointer;
+  background-color: #394150;
+}

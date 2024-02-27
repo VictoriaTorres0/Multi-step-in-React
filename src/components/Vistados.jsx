@@ -1,40 +1,38 @@
 import React from "react";
 import "./Vistados.css";
 
-function Vistados() {
+function Vistados({ opcion, setOpcion }) {
+  console.log(opcion);
+
   return (
     <div className="container-formulario">
       <h1>Which topics you are interested in?</h1>
       <form className="formulario">
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Software Development"
-          required
-        />
+        <button
+          type="button"
+          className={opcion === "Software Development" ? "button-selected" : ""}
+          onClick={() => setOpcion("Software Development")}
+        >
+          Software Development
+        </button>
         <br />
-
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="User Experience"
-          required
-        />
+        <button
+          type="button"
+          className={opcion === "User Experience" ? "button-selected" : ""}
+          onClick={() => setOpcion("User Experience")}
+        >
+          User Experience
+        </button>
         <br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Graphic Design"
-          required
-        />
+        <button
+          type="button"
+          className={opcion === "Graphic Design" ? "button-selected" : ""}
+          onClick={() => setOpcion("Graphic Design")}
+        >
+          Graphic Design
+        </button>
         <br />
       </form>
-      <button className="boton" type="submit" value="Continue">
-        Continue
-      </button>
     </div>
   );
 }

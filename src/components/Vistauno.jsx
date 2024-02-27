@@ -1,7 +1,7 @@
-import React from "react";
 import "./Vistauno.css";
+import React, { useState } from "react";
 
-function vistaUno() {
+function Vistauno({ name, setName, email, setEmail }) {
   return (
     <div className="container-formulario">
       <h1>Register</h1>
@@ -13,6 +13,8 @@ function vistaUno() {
           name="name"
           placeholder="Enter your name"
           required
+          value={name}
+          onChange={(e) => setName(e.target.value)}
         />
         <br />
         <label htmlFor="email">Email:</label>
@@ -22,14 +24,13 @@ function vistaUno() {
           name="email"
           placeholder="example@gmail.com"
           required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         <br />
       </form>
-      <button className="boton" type="submit" value="Continue">
-        Continue
-      </button>
     </div>
   );
 }
 
-export default vistaUno;
+export default Vistauno;

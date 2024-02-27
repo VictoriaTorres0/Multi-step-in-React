@@ -1,7 +1,7 @@
 import React from "react";
 import "./Vistatres.css";
 
-function Vistatres() {
+function Vistatres({ name, email, opcion }) {
   return (
     <div className="container-formulario">
       <h1 className="h1-resumen">Summary</h1>
@@ -9,26 +9,22 @@ function Vistatres() {
         <label className="label-texto" htmlFor="nombre">
           Name:
         </label>
-        <p id="resultado-nombre"></p>
+        <p id="resultado-nombre">{name}</p>
       </div>
       <div className="campo-intereses">
         <label className="label-texto" htmlFor="email">
           Email:
         </label>
-        <p id="resultado-email"></p>
+        <p id="resultado-email">{email}</p>
       </div>
       <div className="topics">
         <label className="label-texto" htmlFor="temas">
           Topics:
         </label>
         <ul id="temas" className="temas">
-          <li>User experience</li>
-          <li>Graphic Design</li>
+          <li>{opcion}</li>
         </ul>
       </div>
-      <button className="boton" type="submit" value="Continue">
-        Confirm
-      </button>
     </div>
   );
 }
