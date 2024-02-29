@@ -18,18 +18,7 @@ input[type="email"] {
   cursor: pointer;
 }
 
-.button-selected {
-  width: 400px;
-  padding: 15px;
-  margin-bottom: 10px;
-  border: 2px solid #4d5562;
-  border-radius: 13px;
-  box-sizing: border-box;
-  color: #e5e7eb;
-  cursor: pointer;
-  background-color: #652cd1;
-}
-.formulario button {
+.formulario-btn {
   width: 400px;
   padding: 15px;
   margin-bottom: 10px;
@@ -39,4 +28,8 @@ input[type="email"] {
   color: #e5e7eb;
   cursor: pointer;
   background-color: #394150;
+}
+
+.button-selected {
+  background-color: #652cd1;
 }

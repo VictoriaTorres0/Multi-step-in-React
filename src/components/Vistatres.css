@@ -5,6 +5,17 @@
 .topics ul {
   text-align: left;
   font-size: 14px;
-  margin-left: 24px;
-  padding-bottom: 24px;
+  margin-left: 72px;
+  padding-bottom: 100px;
+}
+.campo-intereses {
+  display: flex;
+  gap: 10px;
+}
+#resultado-email {
+  font-size: 14px;
+}
+
+#resultado-nombre {
+  font-size: 14px;
 }

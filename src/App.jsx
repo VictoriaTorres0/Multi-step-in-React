@@ -37,9 +37,21 @@ function App() {
           </button>
         </div>
         <div className="container--advance-button">
-          <button className="advance-button"></button>
-          <button className="advance-button"></button>
-          <button className="advance-button"></button>
+          <button
+            className={`advance-button ${
+              currentView === 1 ? "purple-ball" : ""
+            }`}
+          ></button>
+          <button
+            className={`advance-button ${
+              currentView === 2 ? "purple-ball" : ""
+            }`}
+          ></button>
+          <button
+            className={`advance-button ${
+              currentView === 3 ? "purple-ball" : ""
+            }`}
+          ></button>
         </div>
       </div>
     </div>

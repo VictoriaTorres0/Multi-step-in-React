@@ -1,7 +1,7 @@
 import React from "react";
 import "./Vistados.css";
 
-function Vistados({ opcion, setOpcion }) {
+function Vistados({ opcion, setOpcion,  }) {
   console.log(opcion);
 
   return (
@@ -10,7 +10,9 @@ function Vistados({ opcion, setOpcion }) {
       <form className="formulario">
         <button
           type="button"
-          className={opcion === "Software Development" ? "button-selected" : ""}
+          className={`formulario-btn ${
+            opcion === "Software Development" ? "button-selected" : ""
+          }`}
           onClick={() => setOpcion("Software Development")}
         >
           Software Development
@@ -18,7 +20,9 @@ function Vistados({ opcion, setOpcion }) {
         <br />
         <button
           type="button"
-          className={opcion === "User Experience" ? "button-selected" : ""}
+          className={`formulario-btn ${
+            opcion === "User Experience" ? "button-selected" : ""
+          }`}
           onClick={() => setOpcion("User Experience")}
         >
           User Experience
@@ -26,7 +30,9 @@ function Vistados({ opcion, setOpcion }) {
         <br />
         <button
           type="button"
-          className={opcion === "Graphic Design" ? "button-selected" : ""}
+          className={`formulario-btn ${
+            opcion === "Graphic Design" ? "button-selected" : ""
+          }`}
           onClick={() => setOpcion("Graphic Design")}
         >
           Graphic Design
